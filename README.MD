@@ -39,20 +39,20 @@ Exploratory analysis was conducted to understand customer purchasing patterns an
 
 This included:
 
-- Distribution analysis of Recency, Frequency, and Monetary values
+`Distribution analysis of Recency, Frequency, and Monetary values`
 <img src="Images/RFM_Customer_Segments.png" width="600">
 
-- Skewness analysis and log transformations
-<img src="Images/Log_skewness.png" width="600">
+`Skewness analysis and log transformations`
+<img src="Images/Log_skewness.png" width="1200">
 
-- Correlation analysis using a heatmap 
+`Correlation analysis using a heatmap` 
 <img src="Images/Correlation_Heatmap.png" width="600">
 
-- Visualization of customer behavior patterns
+`Visualization of customer behavior patterns`
 <img src="Images/Customer_Segmentation_Dashboard.png" width="600">
 
 ## `4. Customer Segmentation`
-
+<img src="Images/Customer_Segmentation.png" width="600"><img src="Images/Elbow_Method.png" width="600">
 Customer segmentation was performed using RFM features.
 
 The features were standardized and clustered using the K-Means Clustering algorithm.
@@ -67,6 +67,7 @@ Customers were then grouped into clusters representing different behavioral segm
 ## `5. Churn Prediction`
 
 Customer churn prediction was formulated as a binary classification problem, where customers were labeled as churned or active based on their recency.
+<img src="Images/Churn_Distribution.png" width="600">
 
 Machine learning models were trained and evaluated, including:
 
@@ -84,8 +85,11 @@ Model performance was evaluated using:
 - F1-score
 - Confusion Matrix
 - ROC Curve
+<img src="Images/ROC_Curve.png" width="600">
 
 ## `6. Customer Lifetime Value (CLV) Estimation`
+
+<img src="Images/Customer_Value_Matrix.png" width="600">
 
 Customer Lifetime Value was estimated using probabilistic models implemented in the Lifetimes Python Library.
 
