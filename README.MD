@@ -43,7 +43,8 @@ This included:
 
 - Skewness analysis and log transformations
 
-- Correlation analysis using a heatmap <img src="Images/Correlation_Heatmap.png" width="600">
+- Correlation analysis using a heatmap 
+<img src="Images/Correlation_Heatmap.png" width="600">
 
 - Visualization of customer behavior patterns
 
