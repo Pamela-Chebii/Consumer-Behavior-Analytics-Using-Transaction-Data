@@ -45,7 +45,7 @@ This included:
 
 #### `b. Skewness analysis and log transformations`
 
-<img src="Images/Log_skewness.png" width="1200">
+<img src="Images/Log_skewness.png" width="600">
 
 #### `c. Correlation analysis using a heatmap` 
 
