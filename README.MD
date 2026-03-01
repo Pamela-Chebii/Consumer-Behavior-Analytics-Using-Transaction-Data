@@ -39,19 +39,19 @@ Exploratory analysis was conducted to understand customer purchasing patterns an
 
 This included:
 
-### `2. Distribution analysis of Recency, Frequency, and Monetary values`
+#### `a. Distribution analysis of Recency, Frequency, and Monetary values`
 
 <img src="Images/RFM_Customer_Segments.png" width="600">
 
-### `2. Skewness analysis and log transformations`
+#### `b. Skewness analysis and log transformations`
 
 <img src="Images/Log_skewness.png" width="1200">
 
-### `3. Correlation analysis using a heatmap` 
+#### `c. Correlation analysis using a heatmap` 
 
 <img src="Images/Correlation_Heatmap.png" width="600">
 
-### `4. Visualization of customer behavior patterns`
+#### `d. Visualization of customer behavior patterns`
 
 <img src="Images/Customer_Segmentation_Dashboard.png" width="600">
 
