@@ -57,8 +57,6 @@ This included:
 
 ## `4. Customer Segmentation`
 
-<img src="Images/Customer_Segmentation.png" width="600"><img src="Images/Elbow_Method.png" width="600">
-
 Customer segmentation was performed using RFM features.
 
 The features were standardized and clustered using the K-Means Clustering algorithm.
@@ -68,6 +66,10 @@ To determine the optimal number of clusters:
 - The Silhouette Score was evaluated for multiple values of K
 
 - The value with the highest score was selected
+
+
+<img src="Images/Customer_Segmentation.png" width="600"><img src="Images/Elbow_Method.png" width="600">
+
 
 Customers were then grouped into clusters representing different behavioral segments such as high-value and low-value customers.
 ## `5. Churn Prediction`
@@ -96,9 +98,9 @@ Model performance was evaluated using:
 
 ## `6. Customer Lifetime Value (CLV) Estimation`
 
-<img src="Images/Customer_Value_Matrix.png" width="600">
-
 Customer Lifetime Value was estimated using probabilistic models implemented in the Lifetimes Python Library.
+
+<img src="Images/Customer_Value_Matrix.png" width="600">
 
 Two models were applied:
 
